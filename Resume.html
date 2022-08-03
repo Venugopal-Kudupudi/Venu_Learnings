@@ -1,0 +1,315 @@
+<html>
+	<head>
+		<title>Venugopal Resume</title>
+		
+		<style type="text/css">
+			.header1{
+				color:white;
+				background-color:#FF9933;
+				text-align:center;
+				font-size:62px;
+				padding-top:5px;
+				padding-bottom:7px;
+				font-family:Monotype Corsiva, Arial Black;
+				font-weight:100;
+				width:99%;
+				position:fixed;
+				top:7px;
+				box-shadow:0 0 10px 0 blue;
+			}
+			
+			h3{
+				margin-left:5px;
+				color:red;
+				font-size:19px;
+				text-decoration:underline;
+			}
+			
+			*{
+				color:#000080;
+			}
+			
+			body{
+				width:99%;
+				height:100%;
+				background-color:#F5FEFD;
+				background-image:url('Venu_photo.jpg');
+				background-repeat:no-repeat;
+				background-attachment:;
+				background-size:20% 50%;
+				background-position:97% 65%;
+			}
+			
+			.header2{
+				background-color:#000080;
+				height:32px;
+				position:fixed;
+				top:120px;
+				padding-top:0.5%;
+				width:99%;
+				align-items:center;
+				box-shadow:0 0 15px 0 #138808;
+			}
+			
+			.header2 *{
+				display:inline;
+			}
+			
+			.header2 li{
+				margin:1.38%;
+			}
+			
+			.header2 li a{
+				color:white;
+				text-decoration:none;
+				font-size:20;
+				padding-left:2.6%;
+				padding-right:2.6%;
+				
+			}
+			
+			.header2 li a:hover{
+				color:#FF9933;
+			}
+			
+			.header3{
+				color:white;
+				background-color:#138808;
+				text-align:center;
+				font-size:20px;
+				font-family:Monotype Corsiva, Arial Black;
+				font-weight:200;
+				padding-top:3px; 
+				padding-bottom:3px; 
+				width:99%; 
+				position:fixed; 
+				box-shadow:0 0 15px 0 #FF9933;
+				bottom:5px;"
+			}
+			div{
+				position:fixed;
+				top:162px;
+			}
+			p{
+				margin-left:30px;
+				font-weight:1000;
+			}
+			
+			.con a{
+				margin-left:30px;
+			}
+			
+			.con a:hover{
+				color:green;
+			}
+			
+			td{
+				font-weight:1000;
+			}
+			
+			div li{
+				font-weight:1000;
+				padding-top:3px;
+			}
+			
+			div a{
+				font-weight:1000;
+			}
+			
+			#technical td{
+				padding-top:5px;
+			}
+			
+			#personal td{
+				padding-top:5px;
+			}
+			
+		</style>
+		
+		<script type="text/javascript">
+				
+				function action(show, link)
+				{
+					document.getElementById("home").style.display="none";
+					document.getElementById("education").style.display="none";
+					document.getElementById("technical").style.display="none";
+					document.getElementById("activities").style.display="none";
+					document.getElementById("personal").style.display="none";
+					document.getElementById("contact").style.display="none";
+					
+					document.getElementById("link1").style.backgroundColor="#000080";
+					document.getElementById("link2").style.backgroundColor="#000080";
+					document.getElementById("link3").style.backgroundColor="#000080";
+					document.getElementById("link4").style.backgroundColor="#000080";
+					document.getElementById("link5").style.backgroundColor="#000080";
+					document.getElementById("link6").style.backgroundColor="#000080";
+					
+					document.getElementById(show).style.display="block";
+					document.getElementById(link).style.backgroundColor="blue";
+					return false;
+				}
+				
+		</script>
+		
+	</head>
+	
+	<body>
+	
+		<header class="header1">Welcome to Venugopal Resume</header>
+		
+		<header class="header2">
+			<nav>
+				<ul>
+					<li><a href="#" onclick="action('home','link1')" id="link1">Home</a></li>
+					<li><a href="#" onclick="action('education','link2')" id="link2">Education</a></li>
+					<li><a href="#" onclick="action('technical','link3')" id="link3">Technical Skills</a></li>
+					<li><a href="#" onclick="action('personal','link4')" id="link4">Personal Details</a></li>
+					<li><a href="#" onclick="action('activities','link5')" id="link5">Activities</a></li>
+					<li><a href="#" onclick="action('contact','link6')" id="link6">Contact me</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div id="home" style="display:block;">
+			<h3>Career Objective: </h3>
+			<p>Seeking a position to apply the knowledge that I have learned and explore abilities, 
+				skills, towards my duties and to excel in the field of Java.</p>
+			
+			<h3>Skill Set</h3>
+			<ul>
+				<li>Strong Technical skills in Java, J2EE and Spring Framework (Core, JDBC, AOP, Tx, ORM, MVC.)</li>
+				<li>Excellent Problem solving, Analytical and Communication skills.</li>
+				<li>Ability to learn new Technologies faster.</li>
+				<li>Good Team player.</li>
+			</ul>
+			
+			<h3>Profile summary</h3>
+			<p>With immense passion on Programming and Problem Solving, looking forward to build my career in the IT sector.</p>
+			<p>Earlier worked as a Technical Supervisor in INA TechFM Global Solutions Pvt. Ltd. For 2years. And as an Electrician in OCS Group India Pvt. Ltd. For 2 Years.</p>
+		
+			<h3>Declaration</h3>
+			<p>I hereby declare that the information furnished above are correct and true to the best of my knowledge.</p>
+		</div>
+		
+		<div id="education" style="display:none;">
+			<h3>Education</h3>
+			<ul>
+				<li>B.Tech(EEE) from BVCITS, Amalapuram. Passed in 2017 (JNTUK)</li>
+				<li>Intermediate (MPC) Board of Intermediate Education, A.P., Scored 72.1% in 2013 from Vidyanidhi Jr. College, Amalapuram.</li>
+				<li>SSC from Board of Secondary Education, A.P. Scored 83.6% in 2011 from Z.P.High School, Munganda.</li>
+			</ul>
+			
+		</div>
+		
+		<div id="technical" style="display:none">
+			<h3>Technical Skills</h3>
+			<table style="margin-left:50px;">
+				<tr>
+					<td>Operating system</td>
+					<td>:</td>
+					<td>Windows</td>
+				</tr>
+				<tr>
+					<td>Programming Language</td>
+					<td>:</td>
+					<td>Java</td>
+				</tr>
+				<tr>
+					<td>Tools</td>
+					<td>:</td>
+					<td>Maven, GitHub, Hibernate(ORM), Eclipse(IDE)</td>
+				</tr>
+				<tr>
+					<td>Databases</td>
+					<td>:</td>
+					<td>MySQL, Oracle</td>
+				</tr>
+				<tr>
+					<td>Web Technologies</td>
+					<td>:</td>
+					<td>Servlets, JSP</td>
+				</tr>
+				<tr>
+					<td>Framework</td>
+					<td>:</td>
+					<td>Springboot</td>
+				</tr>
+				<tr>
+					<td>Servers</td>
+					<td>:</td>
+					<td>Tomcat 9.0, 10.0</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div id="activities" style="display:none">
+			<h3>Co-Curricular Activities</h3>
+				<ul>
+					<li>Completed Internship training at NTPC India Ltd., Simhadri (Visakhapatnam)</li>
+					<li>Won the First prize in technical quiz at EVINCE-2K15.</li>
+					<li>Attended a Three-Day workshop on Electrical software ‘BlueSol’ conducted by VB Engineering.</li>
+				</ul>
+		
+			<h3>Extra-Curricular Activities</h3>
+				<ul>
+					<li>Served as NSS Volunteer and helped the villagers in digitalizing their Identity proofs and Some other Important Documents.</li>
+					<li>Actively involved in Planning and Organizing the events.</li>
+				</ul>
+		
+		</div>
+		
+		<div id="personal" style="display:none">
+			<h3>Personal Details</h3>
+			<table style="margin-left:50px;">
+				<tr>
+					<td>Name</td>
+					<td>:</td>
+					<td>Venugopal Kudupudi</td>
+				</tr>
+				<tr>
+					<td>Father Name</td>
+					<td>:</td>
+					<td>Tulasi Rao</td>
+				</tr>
+				<tr>
+					<td>Languages Known</td>
+					<td>:</td>
+					<td>English, Telugu and Hindi</td>
+				</tr>
+				<tr>
+					<td>Marital Status</td>
+					<td>:</td>
+					<td>Unmarried</td>
+				</tr>
+				<tr>
+					<td>Hobbies</td>
+					<td>:</td>
+					<td>Long journeys, watching News and Interested in Social Issues.</td>
+				</tr>
+				<tr>
+					<td>Permanent Address</td>
+					<td>:</td>
+					<td style="padding-top:10px">Door No: 4-39/6<br/>Ganesh Nagar Street,<br/>P.Gannavaram-533240,<br/>Konaseema District, A.P.</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div id="contact" style="display:none" class="con">
+			<h3>Mail Id</h3>
+			<a href="mailto:venugopal18268@gmail.com">venugopal18268@gmail.com</a>
+			<h3>Mobile No</h3>
+			<p>+91-9676682356</p>
+			<h3>LinkedIn</h3>
+			<a href="https://www.linkedin.com/in/venugopal-kudupudi-612214116">Goto LinkedIn profile.</a>
+			<h3>GitHub</h3>
+			<a href="https://github.com/Venugopal-Kudupudi">You can check my works from here.</a>
+			<h3>Facebook</h3>
+			<a href="https://www.facebook.com/venugopal.kudupudi">If you want to go through my Social media acivity.</a>
+		</div>
+		
+		<header class="header3">
+			E-Mail ID:-  venugopal18268@gmail.com &emsp;&ensp;&nbsp; Mobile:- 9676682356
+		</header>
+	
+	</body>
+</html>
