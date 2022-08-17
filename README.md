@@ -1,2 +1,9 @@
 # Venu_Resume
-This is to showcase what are the Technologies that I have learned and to show my learning outcomes, and to improve myself in order to become a good programmer. Thankyou : )
+
+Title : Venugopal_Resume
+
+Objective : To make my Resume more Intercative and Easy to Read.
+
+Description : This is a Static Page that can allow you to navigate easily between the sections and provided with Hyperlinks to reach me out easily.
+
+Technologies Used : HTML, CSS, JavaScript.
